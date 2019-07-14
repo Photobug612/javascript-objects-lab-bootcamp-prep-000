@@ -17,6 +17,7 @@ function deleteFromObjectByKey(object, key) {
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
+  var obj = {fruit: 'bannana'
   delete object[key]
 return object
 }
